@@ -1,0 +1,74 @@
+@media screen and (max-width:760px) {
+    body {}
+
+    header {
+        flex-direction: column;
+        line-height: 30px;
+        
+    }
+    .última-li{
+        padding: 3px;
+         margin-top: 15px; 
+         background-color: #fff;
+         color:rgb(132, 13, 201) ;
+    }
+    .última-li:hover{
+        background-color:rgb(132, 13, 201) ;
+        color: #fff;
+
+    }
+    
+
+    main {
+        flex-direction: column;
+
+    }
+
+    h1 {
+        font-size: 35px;
+
+    }
+    span h2{
+        font-size: 50px;
+        font-weight: 200;
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 5px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    input {
+        align-self: center;
+        font-size: 12px;
+        width: 80%;
+    }
+
+
+    article img {
+        display: none;
+    }
+
+    #r-pe {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    #r-pe img {
+        width: 20px;
+        height: 20px;
+        /* margin-top: 50px;  */
+    }
+
+    #r-pe a {
+         margin: 30px 0px; 
+
+    }
+
+}
